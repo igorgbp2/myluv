@@ -8,7 +8,7 @@ import Five from "./five";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Six from "./six";
-import hotline from "../assets/hotline.mp3";
+import hotline from "../assets/bts2.mp3";
 import Seven from "./seven";
 import Eight from "./eight";
 
@@ -39,19 +39,19 @@ export default function Four() {
                  
 
       {screen == 0 && (
-        <div className="h-screen flex justify-center border-2 bg-indigo-800">
+        <div className="h-screen w-full flex justify-center border-2 bg-indigo-800">
           <video
             src={background}
             autoPlay
             loop
-            className="object-cover opacity-50"
+            className="object-cover opacity-50 h-screen"
           />
 
           <div className="h-screen flex flex-col justify-center items-center p-4 absolute">
             <p className=" text-white">nós com a nossa cria slkdjfls</p>
             <p className="mb-2 text-white">(mostra pra ele)</p>
 
-            <img src={images[index]} className="rounded-lg" />
+            <img src={images[index]} className="rounded-lg w-80" />
 
             <p className="text-white">{a}</p>
             <button

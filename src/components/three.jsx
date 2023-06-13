@@ -1,7 +1,7 @@
 import { useState } from "react";
 import question from "../assets/question.mp4";
 import desapontado from "../assets/desapontado.jpeg";
-import hotline from "../assets/hotline.mp3";
+import hotline from "../assets/bts1.mp3";
 
 import fato from "../assets/fato.jpg";
 import { useNavigate } from "react-router-dom";

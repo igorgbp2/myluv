@@ -13,7 +13,7 @@ export default function Screen() {
       <audio src={audio} autoPlay></audio>
       <img
         src={gifHome}
-        className="opacity-50 w-full object-cover h-screen"
+        className="opacity-50 object-cover bg-pink-500 h-screen"
       ></img>
       <div className="absolute flex flex-col items-center px-6">
         <p className="font-bold text-pink-400">oi meu amor</p>

@@ -9,12 +9,12 @@ export default function Two() {
   };
   let a = "<3";
   return (
-    <div className="flex h-screen bg-slate-800">
-      <img src={background} className="object-cover opacity-40" />
+    <div className="flex h-screen bg-slate-800 w-full flex-col items-center">
+      <img src={background} className="object-contain opacity-40 h-screen " />
 
-      <div className="screen flex flex-col justify-center items-center p-4 absolute">
+      <div className="h-screen flex flex-col justify-center items-center p-4 absolute">
         <p className="mb-2 text-white">aqui nem preciso falar nada né be</p>
-        <img src={family} className="rounded-xl" />
+        <img src={family} className="rounded-xl object-contain w-72" />
 
         <p className="text-white">{a}</p>
         <button

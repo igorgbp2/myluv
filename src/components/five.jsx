@@ -26,11 +26,11 @@ export default function Five( {setscreen} ) {
   }, []);
 
   return (
-    <div className="h-screen flex bg-indigo-800">
+    <div className="h-screen flex flex-col bg-indigo-800 w-full  items-center">
 
-      <video src={video} autoPlay loop className={`object-cover  opacity-${show1 ?'50':'100'}`} />
+      <video src={video} autoPlay loop className={`object-cover h-screen  opacity-${show1 ?'50':'100'}`} />
 
-      <div className="h-screen w-full flex flex-col justify-center items-center p-4 absolute">
+      <div className="h-screen w-96 flex flex-col justify-center items-center p-4 absolute">
         
 
         {/* <img src={images[index]} className="rounded-lg"/> */}

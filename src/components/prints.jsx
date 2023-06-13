@@ -33,14 +33,14 @@ export default function Prints() {
     console.log(idx);
     let item = idx.item;
     return (
-      <div className="p-4 bg-pink-300 mb-4 rounded-lg flex flex-col items-center">
+      <div className="p-4 bg-pink-300 mb-4 rounded-lg flex flex-col items-center w-72">
         <img src={item.pic} className="w-36 rounded-lg"/>
         <p>{item.description}</p>
       </div>
     );
   }
   return (
-    <div className="w-full p-4 flex flex-col bg-pink-200">
+    <div className="w-full p-4 flex flex-col bg-pink-200 items-center">
       <p className="mb-4 mx-auto text-center">
         da um scroll pra baixo pra ce ir vendo amor, todos os prints aqui são de
         setembro

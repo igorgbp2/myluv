@@ -44,10 +44,10 @@ export default function Six( {setscreen} ) {
   }, []);
 
   return (
-    <div className="h-screen flex bg-pink-600">
-      <video src={video} autoPlay loop className={`object-cover  opacity-${show1 ?'50':'100'}`} />
+    <div className="h-screen flex bg-pink-600 w-full flex-col items-center">
+      <video src={video} autoPlay loop className={`object-contain h-screen  opacity-${show1 ?'50':'100'}`} />
 
-      <div className="h-screen w-full flex flex-col justify-center items-center p-4 absolute">
+      <div className="h-screen w-96 flex flex-col justify-center items-center p-4 absolute  ">
         
 
         {/* <img src={images[index]} className="rounded-lg"/> */}
