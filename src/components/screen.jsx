@@ -27,6 +27,12 @@ export default function Screen() {
         >
           <p>aqui bebê</p>
         </button>
+        <button
+          className="rounded-3xl p-2 mt-2 bg-blue-300"
+          onClick={() => navigation('/pres-hoje')}
+        >
+          <p>clica aqui, amor, o de hoje é aqui kkkkkkkkk</p>
+        </button>
       </div>
       <p className="text-center text-white text-xs">
         ta um pouquinho brega só mas é coisa de romantico :)
